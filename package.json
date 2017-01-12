@@ -1,0 +1,12 @@
+{
+  "name": "stam",
+  "version": "1.0.0",
+  "description": "plan to get wrokers in your nigahbour hood",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "author": "fadeI",
+  "license": "ISC"
+}
