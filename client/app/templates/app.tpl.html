@@ -1,0 +1,37 @@
+<div >
+  <div>
+<nav class ='nav_bar'>
+  <div class ='contianer-fluid'>
+    <a class ='nav-bar'> {{ pagetitle}} </a>
+    <ul>
+      <li><a [routerLink]= "['\boss']"> I am Boss!!</a></li>
+      <li><a [routerLink]= "['\worker']">I am Worker</a></li>
+      </ul>
+    </div>
+</nav>
+  </div>
+  <form >
+    <table>
+      <tr>
+        <td> Job description : </td>
+        <td><DropDownlist> </DropDownlist></td>
+      </tr>
+      <tr>
+        <td>City</td>
+        <td><input type = "text"/> </td>
+      </tr>
+      <tr>
+        <!-- should  support hour picker -->
+        <td>Available dates</td>
+        <td><input type = "date"/> </td>
+      </tr>
+      <tr>
+        <td> price </td>
+        <td> <input /></td>
+      </tr>
+
+    </table >
+
+      <router-outlet></router-outlet>
+</form>
+</div>
